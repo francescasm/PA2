@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inicio h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-bottom: 30px;
+    font-size: 60px;
+
+}
+
+#inicio p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 25px;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li{
+    margin: 15px;
+    list-style: none;
+}
+#inicio nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#redes li{
+    list-style: none;
+    
+}
+
+#redes li a{
+    color: white;
+}
+
+.red {
+    background-color: rgb(19, 135, 112);
+    width: 20px;
+    padding: 10px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+#inicio{
+    background-image: url("img/pexels-negativespace-34085.jpg");
+    background-size: cover;
+    
+}
+
+#index{
+    position:absolute;
+    top: 170px;
+    left: 128px;
+}
+header{
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    margin-top: 170px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    font-size: 60px;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(31, 39, 47);
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(41, 45, 48);
+}
+.activo{
+    text-decoration: underline;
+}
+#img_principal img{
+    width: 550px;
+    
+}
+#foto_texto img{
+    width: 60px;
+    border-radius: 60%;
+}
+#img_principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foto_texto{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 400px;
+    right: 30px;    
+
+}
+#foto_texto p{
+    font-size: 9px;
+}
+h2{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#taza img{
+    width: 250px;
+    float: left;
+    margin-left: 80px;
+    
+}
+#taza {
+    display: flex;
+    align-items: center;
+}
+.normal{
+    margin:0 80px;
+    text-align: justify;
+}
+#taza p{
+    margin-right: 80px;
+    
+    text-align: justify;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 200px;
+ /* display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;*/
+}
+
+.galeria_item{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  opacity: 0.5;
+}
+
+.galeria_item:hover {
+  border: 1px solid #777;
+  opacity: 1;
+  box-shadow: 5px 5px 20px;
+
+}
+
+.galeria_item img {
+  width: 100%;
+  height: auto;
+}
+
+.galeria_item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 15px;
+}
+span{
+    font-size: 9px;
+    font-style: italic;
+    margin: 0 300px;
+}
+#jijiji{
+    margin: 0 150px 10px;
+    text-align: justify;
+}
